@@ -322,8 +322,10 @@ section{
     border-radius: 30%;
     animation: eat 1s linear 0s infinite;
   }
-  button{
+  btn-col{
     display:flex;
+    flex-direction:row;
+    width:100%;
 
   }
 
