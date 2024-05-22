@@ -322,17 +322,9 @@ section{
     border-radius: 30%;
     animation: eat 1s linear 0s infinite;
   }
-  btn-col{
-    display:flex;
-    flex-direction:row;
-    width:100%;
-
-  }
 
 
 p3h3{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-p3h2{
-padding:3opx;
 }
