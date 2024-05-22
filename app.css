@@ -249,7 +249,7 @@ section{
   body {
    h1{
     display: flex;
-    font-size: 60px;
+    font-size: 70px;
     text-align: left;
     align-items: flex-start;
    }
