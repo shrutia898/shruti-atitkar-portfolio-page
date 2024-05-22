@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects Carousel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #7a98b6; /* Dark blue background */
+            
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .carousel-item {
+            text-align: center;
+        }
+        .project-card {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff; /* White background */
+        }
+        .project-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .project-description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .badge {
+            margin: 5px;
+            padding: 8px 12px; /* Smaller badge size */
+            font-size: 16px; /* Smaller font size */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="pg2h1" class="display-3 p-4 text-center mb-4">Projects and Technologies</h1>
+        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="project-card mx-auto">
+                        <h2 class="project-title">Blood Donation System</h2>
+                        <p class="project-description">
+                            Conceptualized and crafted the database structure by creating an Entity-Relationship Diagram, ensuring optimal organization and efficient data management.
+                        </p>
+                        <p class="project-description">
+                            Utilized Oracle SQL Developer to input backbone code and populate databases with simulated data.
+                        </p>
+                        <p class="project-description">
+                            Generated multiple queries using joins, aggregate functions, and nested queries.
+                        </p>
+                        <span class="badge badge-primary">SQL</span>
+                        <span class="badge badge-warning">Oracle SQL Developer</span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="project-card mx-auto">
+                        <h2 class="project-title">Through Different Lenses</h2>
+                        <p class="project-description">
+                            Designed and developed a visually captivating, responsive website showcasing curated photography sourced from Unsplash.com.
+                        </p>
+                        <span class="badge badge-danger">HTML</span>
+                        <span class="badge badge-warning">CSS</span>
+                        <span class="badge badge-info">JavaScript</span>
+                        <span class="badge badge-success">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="project-card mx-auto">
+                        <h2 class="project-title">Slime Fighters</h2>
+                        <p class="project-description">
+                            Developed a Java-based role-playing game with a graphical user interface, focusing on strategic gameplay where players engage in defeating a boss character.
+                        </p>
+                        <p class="project-description">
+                            Engineered unique character profiles with distinct strengths and weaknesses, enhancing player immersion and strategic decision-making.
+                        </p>
+                        <span class="badge badge-primary">Java</span>
+                        <span class="badge badge-success">Java GUI</span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="project-card mx-auto">
+                        <h2 class="project-title">Tweety</h2>
+                        <p class="project-description">
+                            Built a responsive web application that dynamically displays Reddit posts using simulated data.
+                        </p>
+                        <p class="project-description">
+                            Implemented server-side routing with Express.js for handling GET requests and utilized EJS templating engine to generate dynamic HTML pages with data from the server.
+                        </p>
+                        <p class="project-description">
+                            Created a simulated JSON file to mimic subreddit data for testing purposes.
+                        </p>
+                        <span class="badge badge-danger">HTML</span>
+                        <span class="badge badge-warning">CSS</span>
+                        <span class="badge badge-info">JavaScript</span>
+                        <span class="badge badge-secondary">EJS</span>
+                        <span class="badge badge-success">Node.js</span>
+                        <span class="badge badge-dark">Express.js</span>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        
+    </div>
+    <div></div>
+    </body>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

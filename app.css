@@ -1,0 +1,254 @@
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: hsl(282, 29%, 64%);
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+section {
+  width: 100%;
+}
+
+
+.pixelCon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.pixel {
+  background: white;
+  width: 10%;
+  padding-top: 10%;
+  float: left;
+  opacity: 0.0;
+  animation: blink 5s infinite;
+}
+
+@keyframes blink {
+  0%    { opacity: 0.0; }
+  25%   { opacity: 0.0; }
+  50%   { opacity: 0.5; }
+  100%  { opacity: 0.0; }
+}
+
+h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 150px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  color: #0d0c0c;
+}
+
+
+
+.pacman-top {
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 100px 100px 0 0;
+  animation: spin1 0.5s infinite linear;
+}
+
+.pacman-bottom {
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 100px 100px;
+  animation: spin2 0.5s infinite linear;
+}
+
+.feed {
+  margin-top: -185px;
+  margin-left: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+  animation: eat 1s linear 0s infinite;
+}
+
+@keyframes spin1 {
+  0%  { transform: rotate(0deg); }
+  50% { transform: rotate(-35deg); }
+}
+
+@keyframes spin2 {
+  0%  { transform: rotate(0deg); }
+  50% { transform: rotate(35deg); }
+}
+
+@keyframes eat {
+  0%  { box-shadow: 100px 65px 0 0 white, 300px 65px 0 0 white, 500px 65px 0 0 white, 700px 65px 0 0 white, 900px 65px 0 0 white, 1100px 65px 0 0 white, 1300px 65px 0 0 white; }
+  100% { box-shadow: 0px 65px 0 0 white, 100px 65px 0 0 white, 300px 65px 0 0 white, 500px 65px 0 0 white, 700px 65px 0 0 white, 900px 65px 0 0 white, 1100px 65px 0 0 white; }
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.carousel-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-card {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.pg-2 {
+  margin:0;
+  height: 100%;
+  background: rgb(185, 200, 200);
+  z-index: 1;
+  padding:10px;
+  overflow-y: auto; /* Add vertical scrollbar if content exceeds height */
+}
+
+section{
+  width:100%;
+  height:100%
+}
+#h1pg2{
+  font-size: 70px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  padding:20px;
+}
+
+.pg2sets{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* CSS */
+.button-23 {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.button-23:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.button-23:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.button-23:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  padding:20px;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+}
+
+p3h3{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p3h2{
+padding:3opx;
+}
