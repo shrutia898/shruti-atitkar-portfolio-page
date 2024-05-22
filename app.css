@@ -250,7 +250,8 @@ section{
    h1{
     display: flex;
     font-size: 60px;
-    text-align: center;
+    text-align: left;
+    align-items: flex-start;
    }
    .pac{
     margin-right: -20px;
