@@ -297,7 +297,7 @@ section{
 }
 @media screen and (max-width: 576px) {
   h1 {
-    font-size: 60px; /* Adjust font size for smaller screens */
+    font-size: 70px; /* Adjust font size for smaller screens */
   }
   .pacman-top {
   background-color: yellow;
