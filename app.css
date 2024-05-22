@@ -322,6 +322,10 @@ section{
     border-radius: 30%;
     animation: eat 1s linear 0s infinite;
   }
+  button{
+    display:flex;
+
+  }
 
 
 p3h3{
