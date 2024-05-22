@@ -245,6 +245,38 @@ section{
     opacity: 0;
   }
 }
+@media only screen and (max-width: 600px) {
+  body {
+   h1{
+    font-size: 80px;
+   }
+
+   .pacman-top {
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    border-radius: 100px 100px 0 0;
+    animation: spin1 0.5s infinite linear;
+  }
+  
+  .pacman-bottom {
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    border-radius: 0 0 100px 100px;
+    animation: spin2 0.5s infinite linear;
+  }
+  .feed{
+    margin-top: -130px;
+    margin-left: 15px;
+  }
+  
+  }
+  .pixelCon{
+    height: 100vh;
+  }
+
+}
 
 p3h3{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
