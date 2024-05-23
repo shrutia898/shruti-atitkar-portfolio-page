@@ -35,9 +35,20 @@
           </div>
           </div>
           <div class="animate__animated animate__fadeInLeft  animate__delay-1s col-12" style="margin-top: -30px;">
-            <a href="technologies.html"><button type="button" class="btn btn-light btn-lg">Projects</button></a>
-        <button type="button" class="btn btn-light btn-lg">Resume</button>
-        <button type="button" class="btn btn-light btn-lg">Contact</button>
+            <button type="button" class="btn btn-light btn-lg">
+                <a id="dec" href="#projects">projects</a>
+            </button>
+        <button type="button" class="btn btn-light btn-lg">
+            <a id ="dec" href="https://github.com/shrutia898">github</a>
+        </button>
+        <button type="button" class="btn btn-light btn-lg">
+           <a id="dec" href="#work">work history</a>
+        </button>
+        <button type="button" class="btn btn-light btn-lg">
+            <a id="dec" href="mailto: shruti.atitkar@gmail.com">
+                contact
+            </a>
+        </button>
         </div> 
         </div> 
         
@@ -126,9 +137,9 @@
       </div>
       </div>
       </section>
-      <section class="pg-2">
-            <h1 id ="h1pg2"class=" display-3">projects and technologies</h1>
-            <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+      <section class="pg-2" id="projects">
+            <h1 id ="h1pg2"class="display-3">projects and technologies</h1>
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="project-card mx-auto">
@@ -149,6 +160,7 @@
                     <div class="carousel-item">
                         <div class="project-card mx-auto">
                             <h2 class="project-title">Through Different Lenses</h2>
+                            <img src="images/through-diff-lenses.jpg" class="d-block w-100" alt="Image Description">
                             <p class="project-description">
                                 Designed and developed a visually captivating, responsive website showcasing curated photography sourced from Unsplash.com.
                             </p>
@@ -162,6 +174,7 @@
                         <div class="project-card mx-auto">
                             <h2 class="project-title">Slime Fighters</h2>
                             <p class="project-description">
+
                                 Developed a Java-based role-playing game with a graphical user interface, focusing on strategic gameplay where players engage in defeating a boss character.
                             </p>
                             <p class="project-description">
@@ -174,14 +187,12 @@
                     <div class="carousel-item">
                         <div class="project-card mx-auto">
                             <h2 class="project-title">Tweety</h2>
+                            <img src="images/tweety2.jpg" class="d-block w-100" alt="Image Description">
                             <p class="project-description">
-                                Built a responsive web application that dynamically displays Reddit posts using simulated data.
+                                Built a mini responsive web app about food, gardening, and pets that dynamically displays Reddit posts using simulated data from a JSON file.
                             </p>
                             <p class="project-description">
-                                Implemented server-side routing with Express.js for handling GET requests and utilized EJS templating engine to generate dynamic HTML pages with data from the server.
-                            </p>
-                            <p class="project-description">
-                                Created a simulated JSON file to mimic subreddit data for testing purposes.
+                                Implemented server-side routing with Express.js for handling GET requests and utilized EJS templating engine to generate dynamic HTML pages.
                             </p>
                             <span class="badge badge-danger">HTML</span>
                             <span class="badge badge-warning">CSS</span>
@@ -191,6 +202,7 @@
                             <span class="badge badge-dark">Express.js</span>
                         </div>
                     </div>
+                
                 </div>
         
                 <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
@@ -203,17 +215,12 @@
                 </a>
     
             </div>
-            <div class="pg2sets">
-                <p>all projects can be found on my  github</p>
-                <button class="pg2sets button-23"type="button">Contact</button>
-                </div>
-                
+        </div>
 </section>
 
-<section class="page3">
+<section class="page3" id="work">
 <div class="design-section">
     <div class="timeline">
-                   <div class="timeline-middle"></div>
                    
                    </div>
                    <h2 style="padding:30px">work history</h2>
@@ -224,13 +231,21 @@
                     <p>• Collaborated with Purdue Marketing and faculty to enhance website usability, accessibility, and content management.</p>
                     <p>• Leveraged HTML, CSS, and Purdue’s Content Management System to create visually appealing and functional pages.</p>
                </div>
+               <img class="svgvec" src = "images/up-arrow-svgrepo-com.svg">
                     <div class="timeline-component timeline-content">
                         <h3>August 2022 - December 2023</h3>
-                        <h5 style="font-family:Verdana, Geneva, Tahoma, sans-serif; padding: 5px;">Assistant Web Developer</h5>
-                        <p>• Designed and developed engaging and user-centric web pages for the Masters, Online, and Nondegree programs of the Mitch Daniels School of Business website.
-                        <p>• Collaborated with Purdue Marketing and faculty to enhance website usability, accessibility, and content management.</p>
-                        <p>• Leveraged HTML, CSS, and Purdue’s Content Management System to create visually appealing and functional pages.</p>
+                        <h5 style="font-family:Verdana, Geneva, Tahoma, sans-serif; padding: 5px;">Undergraduate Student Researcher</h5>
+                        <p>• Learned about triangulation and GPS discrepancy while tracking assets. 
+                        <p>• Utilized Kalman Filtering to prevent noise pollution.</p>
+                        <p>• Used Pandas and Geopandas to help display the locations of the assets.</p>
                    </div>
+                   <img class="svgvec" src = "images/up-arrow-svgrepo-com.svg">
+                   <div class="timeline-component timeline-content">
+                    <h3>August 2022 - Present</h3>
+                    <h5 style="font-family:Verdana, Geneva, Tahoma, sans-serif; padding: 5px;">Student at Purdue University</h5>
+                    <p>• Studying Computer Information Technology
+        
+               </div>
                     </div>
                </div>
     
