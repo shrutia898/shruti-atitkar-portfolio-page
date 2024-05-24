@@ -345,7 +345,9 @@ a {
     animation: eat 1s linear 0s infinite;
   }
 
-
+#introduction h2{
+font-size: 30px;
+}
 
 p3h3{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
