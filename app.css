@@ -345,8 +345,13 @@ a {
     animation: eat 1s linear 0s infinite;
   }
 
+
 #introduction h2{
 font-size: 30px;
+}
+
+.pg-2 {
+  height: 130vh;
 }
 
 p3h3{
